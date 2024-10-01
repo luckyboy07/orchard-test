@@ -1,35 +1,29 @@
-# Interface Development Test
+# Filta Assessment
 
-## Design assets
-* Invision public URL: https://invis.io/N312IJ0C8GMK
-* Assets used in the build have been packaged under the `/assets` folder.
+This test is a front-end setup using Webpack and TailwindCSS, allowing you to build a responsive application with custom fonts and assets. It includes configuration for handling CSS, images, and fonts, along with support for multiple font styles (e.g., light, regular, bold).
+## 🚀 **Technologies Used**
 
-## Test instructions
-In the linked Invision page you will find the designs for two components. Complete the following:
-* The code should be submitted via a github account. Bonus points for more than one commit.
-* Build the two blocks using modern HTML5 standards.
-* Use JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
-* As with any modern web-build we expect a level of interactivity/animation to be displayed on the nodes.
-* All content areas should be deemed as being populated from a CMS - so all copy lengths can vary!
+- **Webpack**: Module bundler to compile JavaScript, CSS, images, and fonts.
+- **TailwindCSS**: Utility-first CSS framework for building responsive designs.
+- **PostCSS**: Tool to process TailwindCSS with Webpack.
+- **HTMLWebpackPlugin**: Simplifies the creation of an HTML file to include all bundled assets.
+- **CSS Loader**: Allows importing CSS files into JavaScript.
+- **Style Loader**: Injects CSS into the DOM.
+- **Asset Modules**: Used for handling image and font files.
 
-## Technologies
-* Any CSS-preprocessors or frameworks.
-* ES5 or ES6+ acceptable.
-* Please include some reasoning for the decisions via comments or readme.
-* Build tools and task runners are encouraged (e.g. grunt/gulp/webpack).
+## 🔧 **Getting Started**
 
-## Layout
-* The layout is expected to work in the latest Chrome/FireFox/Edge versions.
-* The layout should be responsive and work down to a `320px` mobile device.
-* Bearing in mind that this application is expected to be responsive, the developer should consider the appropriate `<meta>` tags.
-* **Section: All the latest:** Assume these items need anchor tags, but have no link defined.
-* **Section: Answer your body's needs:** Each image in this section should display in a modal on click.
+### **1. Prerequisites**
+- **Node.js**: Ensure you have Node.js installed.
 
-## Review Criteria
-We are looking for your ability to bring life to static designs. During that process consider the following:
-* **Project structure:** Clean project and logical traversal.
-* **JavaScript:** Efficiency of code and efficacy in bringing the design to life.
-* **Interface:** Semantic markup styling.
-* **Git:** Bonus points for submission on a github account showing multiple commits.
-* **Quality:** Production-grade build and precision.
-
+### **2. Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/luckyboy07/orchard-test
+   cd orchard-test
+2. Install the dependencies:
+    `npm install`
+3. Running the Development Server
+    `npm start`
+4. Building for Production
+    `npm run build`
