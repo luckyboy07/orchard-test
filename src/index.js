@@ -1,11 +1,5 @@
 import './styles.css';
 
-document.querySelectorAll('.card a').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        alert('This feature is not available yet!');
-    });
-}); 
 
 
 const body = document.body;
@@ -16,7 +10,7 @@ const modalImg = document.querySelector('#modal-image');
 links.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log('link--', link);
+    console.log('image click');
 
     if (link.classList.contains('block-img')) {
       body.style.overflow = 'hidden';

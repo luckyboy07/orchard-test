@@ -121,15 +121,16 @@
 .card-container .card {
     animation: grid-move 0.5s ease;
 }
-.col-inner {
+.card-inner {
     display: block;
     text-decoration: none;
   }
-  .col-inner span {
-    display: block;
-  }
 
-.col-img {
+.card-inner span {
+display: block;
+}
+
+.card-image {
     display: block;
     margin-bottom: 26px;
     border-bottom: 4px solid #cf1430;
