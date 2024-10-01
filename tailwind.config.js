@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ['OpenSans', 'sans-serif'],
+      },
+      fontWeight: {
+        light: 300,
+        normal: 400,
+        extrabold: 800,
+      },
+    },
   },
   plugins: [],
 }
