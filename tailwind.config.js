@@ -9,6 +9,7 @@ module.exports = {
         custom: ['OpenSans', 'sans-serif'],
       },
       fontWeight: {
+        xlight: 100,
         light: 300,
         normal: 400,
         extrabold: 800,
